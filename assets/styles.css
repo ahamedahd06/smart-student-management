@@ -1,0 +1,12 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.block-container {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+h1, h2, h3 {
+  letter-spacing: 0.2px;
+}
