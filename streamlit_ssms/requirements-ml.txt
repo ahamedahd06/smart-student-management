@@ -1,0 +1,5 @@
+# Optional: large packages (~2–3 GB with TensorFlow). Install only if you have disk space.
+# pip install -r requirements-minimal.txt
+# pip install -r requirements-ml.txt
+opencv-python-headless>=4.8,<5
+tensorflow>=2.15,<3

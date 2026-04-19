@@ -1,0 +1,16 @@
+{
+  "include": ["streamlit_ssms", "train_emotion_model.py"],
+  "exclude": ["**/.venv", "**/__pycache__", "**/node_modules"],
+  "venvPath": "streamlit_ssms",
+  "venv": ".venv",
+  "pythonVersion": "3.11",
+  "pythonPlatform": "Windows",
+  "executionEnvironments": [
+    {
+      "root": ".",
+      "extraPaths": ["streamlit_ssms"],
+      "pythonVersion": "3.11",
+      "pythonPlatform": "Windows"
+    }
+  ]
+}

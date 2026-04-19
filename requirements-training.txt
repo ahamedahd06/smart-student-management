@@ -1,0 +1,7 @@
+# For train_emotion_model.py (FER2013 from Hugging Face)
+# pip install -r streamlit_ssms/requirements-minimal.txt
+# pip install -r streamlit_ssms/requirements-ml.txt
+# pip install -r requirements-training.txt
+
+datasets>=2.14.0
+scikit-learn>=1.3.0

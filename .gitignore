@@ -1,0 +1,44 @@
+# Virtual environments (recreate: python -m venv .venv && pip install -r requirements.txt)
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local SQLite (recreated when you run the app; avoids committing personal/demo data)
+streamlit_ssms/data/*.db
+
+# Secrets (never commit real passwords or API keys)
+.env
+.env.*
+!.env.example
+
+# Large ML weight files (keep code; train or attach model separately — use `git add -f` if you insist)
+*.keras
+*.h5
+
+# Microsoft Office lock / temp files (never commit)
+~$*
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+Desktop.ini
+
+# Node (if any)
+node_modules/
+dist/
+build/
+
+# Logs
+*.log

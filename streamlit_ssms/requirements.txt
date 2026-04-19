@@ -1,0 +1,7 @@
+# Default: small install (Streamlit + SQLite stack). Emotion = stub unless you add ML packages.
+# For TensorFlow + OpenCV (Interim ML):   pip install -r requirements-ml.txt
+streamlit>=1.40,<2
+pandas>=2.0,<3
+numpy>=1.26,<3
+bcrypt>=4.1,<5
+Pillow>=10.3,<12
