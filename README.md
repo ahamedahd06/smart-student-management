@@ -1,5 +1,7 @@
 # Smart Student Management System with Facial Recognition and ML-Based Emotion Detection to Support Student Retention
 
+*Repository: [smart-student-management](https://github.com/ahamedahd06/smart-student-management) — Kandy ESU, Data Science.*
+
 **Short name:** Smart Student Management System (SSMS)
 
 This project delivers a **role-based web application** (Streamlit + SQLite) for:
