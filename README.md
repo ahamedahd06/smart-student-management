@@ -71,8 +71,16 @@ The admin sign-in screen always uses email **`admin@university.esu`** (password 
 
 ## Documentation
 
-| File | Purpose |
-|------|---------|
-| `Interim.docx` | Interim report / scope |
-| `docs/COLAB_EMOTION_TRAINING.md` | Dataset, 4-class mapping, Colab training, export |
-| `streamlit_ssms/branding.py` | Official system title string for UI |
+On GitHub, open folders (**`docs/`**, **`streamlit_ssms/`**, **`backend/`**) to see everything inside the root list. All Markdown guides in this repo:
+
+| Document | Open on GitHub |
+|----------|----------------|
+| **Viva Q&A** | [VIVA_QA_PREPARATION.md](https://github.com/ahamedahd06/smart-student-management/blob/main/VIVA_QA_PREPARATION.md) |
+| **Technical summary (viva / report)** | [VIVA_TECHNICAL_SUMMARY.md](https://github.com/ahamedahd06/smart-student-management/blob/main/VIVA_TECHNICAL_SUMMARY.md) |
+| **Dissertation chapters 3 & 8 (system detail)** | [docs/SSMS_Report_Chapters_3_and_8.md](https://github.com/ahamedahd06/smart-student-management/blob/main/docs/SSMS_Report_Chapters_3_and_8.md) |
+| **Emotion model training (Colab / FER)** | [docs/COLAB_EMOTION_TRAINING.md](https://github.com/ahamedahd06/smart-student-management/blob/main/docs/COLAB_EMOTION_TRAINING.md) |
+| **Legacy Flask stack (deprecated)** | [backend/README_DEPRECATED_STACK.md](https://github.com/ahamedahd06/smart-student-management/blob/main/backend/README_DEPRECATED_STACK.md) |
+
+Other report assets in the repo root: `Interim.docx`, `Final Project Report Template 2025 Sep.docx`, `Project Proposal Template 2025.docx`.
+
+**Official UI title** (code): `streamlit_ssms/branding.py`.
